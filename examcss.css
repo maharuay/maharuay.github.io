@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     margin: 0px;
   }
@@ -157,3 +158,164 @@
    }
 
 
+=======
+* {
+    margin: 0px;
+  }
+  
+  body {
+    font-family: 'Avenir Next LT Pro', sans-serif;
+    max-width: 1280px;
+    margin: auto;
+  }
+  
+  #banner-container {
+  
+    display: flex;
+    align-items: center;
+    padding: 32px 24px;
+    background-color: #d7d7d7;
+  }
+  
+  #banner-container img {
+    width: 60%;
+  }
+  
+  #banner-container #banner-text {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+  }
+  
+  #banner-container #banner-text h1 {
+    margin-top: 24px;
+    color: #4a4a4a;
+  }
+  
+  #banner-container #banner-text p {
+    color: #4a4a4a;
+    margin-top: 24px;
+  }
+  
+  #banner-container #banner-text button {
+    color: white;
+    background-color: #4a4a4a;
+    border: unset;
+    padding: 8px 0px;
+    margin-top: 24px;
+  }
+
+  #information-container {
+    display: grid;
+    grid-template: 3fr / 2fr;
+    padding: 32px 24px;
+  }
+
+  #information-container img {
+    width: 100%;
+  }
+
+  #information-container h1 {
+    display: grid;
+    margin-left: 24px;
+    padding: 32px 24px;
+  }
+
+  #information-container p {
+    display: grid;
+    row-gap: 32px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: repeat(3, fr1);
+    border: 1px rgb(111, 111, 124) solid;
+    height: auto;
+    width: auto;
+  }
+   .a {
+    display: grid;
+    padding: 16px 16px;
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 3;
+   }
+
+   .b {
+    display: grid;
+    padding: 16px 16px;
+    border: 1px rgb(111, 111, 124) solid;
+   }
+
+   .c {
+    display: grid;
+    padding: 16px 16px;
+    border: 1px rgb(111, 111, 124) solid;
+   }
+
+   .d {
+    display: grid;
+    padding: 16px 16px;
+    border: 1px rgb(111, 111, 124) solid;
+   }
+
+   #learning-container {
+    background-color: #d7d7d7;
+   }
+
+   .learning {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(2, fr1);
+    border: 1px rgb(111, 111, 124) solid;
+    height: auto;
+    width: auto;
+
+   .learn1 {
+    display: grid;
+    padding: 16px 16px;
+   }
+
+   .learn2 {
+    display: grid;
+    padding: 16px 16px;
+   }
+
+   .learn3 {
+    display: grid;
+    padding: 16px 16px;
+   }
+
+   .learn4 {
+    display: grid;
+    padding: 16px 16px;
+   }
+
+   .learn5 {
+    display: grid;
+    padding: 16px 16px;
+   }
+
+   .learn6 {
+    display: grid;
+    padding: 16px 16px;
+   }
+
+   .thesis {
+    display: grid;
+    padding: 16px 16px;
+   }
+
+   .fisma {
+    display: grid;
+    padding: 16px 16px;
+   }
+
+   .nowthen {
+    display: grid;
+    padding: 16px 16px;
+   }
+
+
+>>>>>>> 63d486461143db5716cb8e13dd81e1729ef14f0a
